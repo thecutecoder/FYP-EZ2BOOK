@@ -1,0 +1,208 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnavigationv6"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\SCS\Desktop\17-6-22\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\SCS\Desktop\17-6-22\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\SCS\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.99.0] C:\Users\SCS\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:react-native-firebase_storage] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+15-->[:react-native-firebase_storage] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-firebase_storage] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+16-->[:react-native-firebase_storage] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+17
+18    <queries>
+18-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+19        <intent>
+19-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+20            <action android:name="android.media.action.IMAGE_CAPTURE" />
+20-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+20-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
+24-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
+25
+26    <application
+26-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:7:5-25:19
+27        android:name="com.reactnavigationv6.MainApplication"
+27-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:8:7-38
+28        android:allowBackup="false"
+28-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:12:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] C:\Users\SCS\.gradle\caches\transforms-3\5efa136d6b7a2c594211658eacead3c1\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:10:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:9:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:11:7-52
+34        android:theme="@style/AppTheme"
+34-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:13:7-38
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\SCS\Desktop\17-6-22\android\app\src\debug\AndroidManifest.xml:8:9-44
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->C:\Users\SCS\Desktop\17-6-22\android\app\src\debug\AndroidManifest.xml:11:9-86
+36-->C:\Users\SCS\Desktop\17-6-22\android\app\src\debug\AndroidManifest.xml:11:19-83
+37        <activity
+37-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:14:7-24:18
+38            android:name="com.reactnavigationv6.MainActivity"
+38-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:15:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+39-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:17:9-86
+40            android:label="@string/app_name"
+40-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:16:9-41
+41            android:launchMode="singleTask"
+41-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:18:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:19:9-51
+43            <intent-filter>
+43-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:20:9-23:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:21:13-65
+44-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:21:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:22:13-73
+46-->C:\Users\SCS\Desktop\17-6-22\android\app\src\main\AndroidManifest.xml:22:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <meta-data
+50-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:36
+51            android:name="app_data_collection_default_enabled"
+51-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-63
+52            android:value="true" />
+52-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-33
+53
+54        <service
+54-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-89
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\SCS\.gradle\caches\transforms-3\8997b75f6ebe9b0e1b656f50e638088e\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:32:13-37
+58            <meta-data
+58-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:85
+59                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+59-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-120
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\SCS\.gradle\caches\transforms-3\8997b75f6ebe9b0e1b656f50e638088e\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+62                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+62-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\SCS\.gradle\caches\transforms-3\8997b75f6ebe9b0e1b656f50e638088e\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\SCS\.gradle\caches\transforms-3\8997b75f6ebe9b0e1b656f50e638088e\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+64        </service>
+65
+66        <provider
+66-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-24:38
+67            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+67-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-88
+68            android:authorities="com.reactnavigationv6.reactnativefirebaseappinitprovider"
+68-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-86
+69            android:exported="false"
+69-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+70            android:initOrder="99" />
+70-->[:react-native-firebase_app] C:\Users\SCS\Desktop\17-6-22\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-35
+71        <provider
+71-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+72            android:name="androidx.core.content.FileProvider"
+72-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
+73            android:authorities="com.reactnavigationv6.provider"
+73-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+74            android:exported="false"
+74-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+75            android:grantUriPermissions="true" >
+75-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+76            <meta-data
+76-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
+77                android:name="android.support.FILE_PROVIDER_PATHS"
+77-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
+78                android:resource="@xml/provider_paths" />
+78-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
+79        </provider>
+80
+81        <activity
+81-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+82            android:name="com.yalantis.ucrop.UCropActivity"
+82-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+83            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+83-->[:react-native-image-crop-picker] C:\Users\SCS\Desktop\17-6-22\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+84        <activity
+84-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+85            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+85-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+86            android:excludeFromRecents="true"
+86-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+87            android:exported="false"
+87-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+88-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+89        <!--
+90            Service handling Google Sign-In user revocation. For apps that do not integrate with
+91            Google Sign-In, this service will never be started.
+92        -->
+93        <service
+93-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+94            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+94-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+95            android:exported="true"
+95-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+96            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+96-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+97            android:visibleToInstantApps="true" />
+97-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\SCS\.gradle\caches\transforms-3\e486f45372c68f8122cbda1c7abaa1c2\transformed\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\SCS\.gradle\caches\transforms-3\6f31982f1e89bd65aa8dd8942db73c46\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\SCS\.gradle\caches\transforms-3\6f31982f1e89bd65aa8dd8942db73c46\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\SCS\.gradle\caches\transforms-3\6f31982f1e89bd65aa8dd8942db73c46\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\SCS\.gradle\caches\transforms-3\6f31982f1e89bd65aa8dd8942db73c46\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+103
+104        <provider
+104-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+105            android:name="com.google.firebase.provider.FirebaseInitProvider"
+105-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+106            android:authorities="com.reactnavigationv6.firebaseinitprovider"
+106-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:20.1.1] C:\Users\SCS\.gradle\caches\transforms-3\af39339a259de7efd1da8346dd2c8374\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\SCS\.gradle\caches\transforms-3\d1e1442acf262d249aef8fc181ca0445\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\SCS\.gradle\caches\transforms-3\d1e1442acf262d249aef8fc181ca0445\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\SCS\.gradle\caches\transforms-3\d1e1442acf262d249aef8fc181ca0445\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+114    </application>
+115
+116</manifest>
